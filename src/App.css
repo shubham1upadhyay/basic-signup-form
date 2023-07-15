@@ -4,7 +4,8 @@
 }
 .parent{
   background-color:#B1D9DB;
-  height: 100vh;
+  width: 100%;
+  min-height: 100vh;
   display: flex;
   padding-bottom: 0px;
   margin-bottom: 0px;

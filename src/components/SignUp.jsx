@@ -111,7 +111,7 @@ function SignUp() {
                 />
                 <input
                   className="form-control"
-                  type="text"
+                  type="password"
                   name="password"
                   id="password"
                   value={password}
@@ -120,7 +120,7 @@ function SignUp() {
                 />
                 <input
                   className="form-control"
-                  type="text"
+                  type="password"
                   name="cpassword"
                   id="cpassword"
                   value={cpassword}
