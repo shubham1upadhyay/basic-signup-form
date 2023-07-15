@@ -8,6 +8,7 @@ function SignUp (){
     const[password, setPassword] =  useState("");
     const[cpassword, setCpassword] =  useState("");
     const [errors, setErrors] = useState({});
+
     function fullName (e){
         setFname(e.target.value);
       };
@@ -106,9 +107,9 @@ function SignUp (){
                     </div>
                 </form>
                 </div>
-                <div className="text-center">
-                    <p className="fs-5 fw-bold mt-3 text-success s-msg">{errors.sMsg}</p>
-                    <p className="fs-5 fw-bold mt-3 text-danger s-msg">{errors.eMsg}</p>
+                <div className="text-center message">
+                    <p className="fs-5 fw-bold mt-0 text-success s-msg">{errors.sMsg}</p>
+                    <p className="fs-5 fw-bold mt-0 text-danger s-msg">{errors.eMsg}</p>
                     {/* Error : Please Make sure your password and confirm password match ! */}
                 </div>
                </div>
